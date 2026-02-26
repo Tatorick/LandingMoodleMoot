@@ -1,0 +1,1516 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MoodleMoot Ecuador 2026 — Innovación Educativa · 11 y 12 de Junio · PUCE
+      Quito
+    </title>
+    <meta
+      name="description"
+      content="El encuentro nacional de Educación y Tecnología. MoodleMoot Ecuador 2026, 11 y 12 de junio en la PUCE Quito. Charlas TED, talleres prácticos y networking con líderes de la educación digital."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ============================================================ MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-close" id="mobileClose" aria-label="Cerrar menú">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+        >
+          <path d="M18 6L6 18M6 6l12 12" />
+        </svg>
+      </button>
+      <a href="#about">El Evento</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#sede">Sede</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://moodlemoot-pay.exducereonline.com/register-payment/MOOT2026" style="color: var(--orange)">Inscríbete</a>
+    </div>
+
+    <!-- ============================================================ NAVBAR -->
+    <nav id="navbar" aria-label="Navegación principal">
+      <div class="container nav-inner">
+        <a href="#" class="nav-logo" aria-label="MoodleMoot Ecuador 2026">
+          <img
+            src="images/mootecuador25logoblanco.png"
+            alt="MoodleMoot Ecuador 2026 Logo"
+          />
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="#about">El Evento</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#sede">Sede</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://moodlemoot-pay.exducereonline.com/register-payment/MOOT2026" class="nav-cta">Inscríbete</a></li>
+        </ul>
+        <button
+          class="nav-hamburger"
+          id="hamburger"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ============================================================ HERO -->
+    <section id="hero">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+
+      <div class="hero-content">
+        <img
+          src="images/mootecuador25logoblanco.png"
+          alt="MoodleMoot Ecuador 2026"
+          class="hero-logo"
+        />
+        <p class="hero-eyebrow">Encuentro Nacional de Educación y Tecnología</p>
+        <p class="hero-subtitle">
+          Innovación, pedagogía y tecnología educativa reunidas en un solo
+          lugar.
+        </p>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            <span>11 y 12 de Junio, 2026</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
+              />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>PUCE Quito · Campus Central</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <span>Speakers Nacionales e Internacionales</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="https://moodlemoot-pay.exducereonline.com/register-payment/MOOT2026" class="btn btn-primary">
+            Regístrate Ahora
+          </a>
+          <a href="#about" class="btn btn-outline">Conoce el Evento</a>
+        </div>
+
+        <div class="countdown" id="countdown">
+          <p class="countdown-label">Faltan para el evento</p>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd-days">000</span>
+            <span class="countdown-text">Días</span>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd-hours">00</span>
+            <span class="countdown-text">Horas</span>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd-minutes">00</span>
+            <span class="countdown-text">Min</span>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd-seconds">00</span>
+            <span class="countdown-text">Seg</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+        <span>Explorar</span>
+      </div>
+
+      <div class="wave-divider">
+        <svg
+          viewBox="0 0 1440 60"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z"
+            fill="#ffffff"
+          />
+        </svg>
+      </div>
+    </section>
+
+
+    <!-- ============================================================ STATS BAR -->
+    <section id="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-number">2<span>+</span></div>
+            <div class="stat-label">Días de contenido</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-1">
+            <div class="stat-number">6<span>+</span></div>
+            <div class="stat-label">Speakers expertos</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <div class="stat-number">12<span>+</span></div>
+            <div class="stat-label">Charlas tipo TED</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <div class="stat-number">6<span>+</span></div>
+            <div class="stat-label">Talleres prácticos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ ABOUT -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <span class="badge">Sobre el Evento</span>
+            <h2 class="section-title">
+              El encuentro que <span>transforma</span> la educación
+            </h2>
+            <p class="section-lead">
+              MoodleMoot Ecuador 2026 es el espacio donde docentes,
+              investigadores, desarrolladores y gestores educativos se reúnen
+              para compartir experiencias, buenas prácticas e innovaciones en
+              educación digital.
+            </p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                  </svg>
+                </div>
+                <div class="feature-text">
+                  <h4>Charlas tipo TED</h4>
+                  <p>
+                    Ponencias breves, inspiradoras y de alto impacto sobre IA,
+                    gamificación, neurodidáctica y más.
+                  </p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="2" y="3" width="20" height="14" rx="2" />
+                    <path d="M8 21h8M12 17v4" />
+                  </svg>
+                </div>
+                <div class="feature-text">
+                  <h4>Talleres Prácticos</h4>
+                  <p>
+                    Sesiones hands-on para docentes, administradores de
+                    plataforma y desarrolladores Moodle.
+                  </p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path
+                      d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+                    />
+                  </svg>
+                </div>
+                <div class="feature-text">
+                  <h4>Networking de Impacto</h4>
+                  <p>
+                    Conecta con líderes educativos, rectores, docentes e
+                    innovadores de todo el Ecuador.
+                  </p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="8" r="6" />
+                    <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+                  </svg>
+                </div>
+                <div class="feature-text">
+                  <h4>Premios MoodleMoot 2026</h4>
+                  <p>
+                    Reconocimiento a las mejores iniciativas de innovación
+                    educativa del país.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual reveal reveal-delay-2">
+            <div class="about-card-main">
+              <div class="card-icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                  />
+                </svg>
+              </div>
+              <h3>¿Para quién es este evento?</h3>
+              <p>
+                Diseñado para educadores y líderes académicos, innovadores
+                EdTech, directivos institucionales y responsables de políticas
+                educativas que buscan transformar sus modelos de
+                enseñanza-aprendizaje con tecnología.
+              </p>
+            </div>
+            <div class="about-card-float float-1">
+              <div class="float-icon orange">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <div class="float-text">
+                <strong>Certificados</strong>
+                <span>Avalados por la organización</span>
+              </div>
+            </div>
+            <div class="about-card-float float-2">
+              <div class="float-icon blue">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+              </div>
+              <div class="float-text">
+                <strong>Pre-evento</strong>
+                <span>Café Networking · 10 Jun</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ SPEAKERS -->
+    <section id="speakers" class="section-pad">
+      <div class="container">
+        <div class="speakers-header reveal">
+          <span class="badge">Speakers 2026</span>
+          <h2 class="section-title">Voces que <span>inspiran</span></h2>
+          <p class="section-lead" style="margin: 0 auto">
+            Referentes nacionales e internacionales en tecnología educativa,
+            innovación y liderazgo académico.
+          </p>
+        </div>
+        <div class="speakers-grid">
+          <!-- Speaker 1 -->
+          <div class="speaker-card reveal">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-juan-pablo-espinoza.png"
+                  alt="Juan Pablo Espinoza"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Juan Pablo Espinoza</div>
+                  <div class="speaker-role">
+                    Fundador de Alaborar · Rector Kruger
+                  </div>
+                  <span class="speaker-tag">Emprendimiento e Innovación</span>
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Juan Pablo Espinoza</div>
+                <div class="speaker-back-role">
+                  Abogado · Máster en Dirección Estratégica e Innovación
+                </div>
+                <p class="speaker-back-bio">
+                  Fundador de Alaborar, plataforma que potencia competencias
+                  profesionales y conecta talento con el mercado laboral. Ha
+                  liderado procesos de transformación en el ámbito público y
+                  privado, como Coordinador de la Agenda Digital Quito 2022,
+                  Gerente de EPMAPS y Director del SECAP. Cofundador de Tribu
+                  Innovación y tutor en programas del BID, CEABAD y CIDEU.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 2 -->
+          <div class="speaker-card reveal reveal-delay-1">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-juan- pablo- salgado.png"
+                  alt="Juan Pablo Salgado"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Juan Pablo Salgado</div>
+                  <div class="speaker-role">
+                    Vicerrector PUCE · Doctor en Innovación
+                  </div>
+                  <span class="speaker-tag">Gobernanza Universitaria · IA</span>
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Juan Pablo Salgado-Guerrero</div>
+                <div class="speaker-back-role">
+                  Doctor en Economía y Gestión de la Innovación · Università di
+                  Ferrara
+                </div>
+                <p class="speaker-back-bio">
+                  Arquitecto de ecosistemas de conocimiento y experto en
+                  gobernanza universitaria. Vicerrector de Investigación,
+                  Innovación y Vinculación en la PUCE y en la Universidad
+                  Politécnica Salesiana. Fundador del ecosistema STARTUPS,
+                  integra estrategia, analítica de datos y gestión del
+                  conocimiento para fortalecer el desempeño institucional.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 3 -->
+          <div class="speaker-card reveal reveal-delay-2">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-casen-xu.png"
+                  alt="Casen Xu"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Casen Xu</div>
+                  <div class="speaker-role">CEO Exducere Online</div>
+                  <span class="speaker-tag">Moodle · E-Learning · EdTech</span>
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Casen Xu</div>
+                <div class="speaker-back-role">
+                  CEO Exducere Online · Moodle Course Creator · AWS Technical
+                  Professional
+                </div>
+                <p class="speaker-back-bio">
+                  Con más de 14 años liderando proyectos de tecnología educativa
+                  y e-learning en educación superior. Fue CTO de la Universidad
+                  Politécnica Salesiana en Cuenca. Ingeniero de Sistemas y
+                  Magíster en Gerencia en Sistemas (ESPE). Su misión es
+                  empoderar a los educadores mediante la tecnología.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 4 -->
+          <div class="speaker-card reveal">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-fabian bermeo- villacis.jpg"
+                  alt="Fabián Bermeo"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Fabián Bermeo Villacís</div>
+                  <div class="speaker-role">
+                    Organizador TEDxCuenca · Fundador Integrar
+                  </div>
+                  <span class="speaker-tag"
+                    >Innovación Social · Placemaking</span
+                  >
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Fabián Bermeo Villacís</div>
+                <div class="speaker-back-role">
+                  Psicólogo del Trabajo · Fundador de Integrar Cía. Ltda.
+                </div>
+                <p class="speaker-back-bio">
+                  Organizador de TEDxCuenca y TEDxJoven@Cuenca, desde donde
+                  promueve la circulación de ideas que inspiran acción. Lidera
+                  URBANO, una escuela de placemaking e innovación social. Más de
+                  una década de experiencia en proyectos educativos junto a
+                  gobiernos locales y organizaciones internacionales.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 5 -->
+          <div class="speaker-card reveal reveal-delay-1">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-jorge-maldonado.png"
+                  alt="Jorge Maldonado"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Jorge Maldonado</div>
+                  <div class="speaker-role">
+                    Fundador Edu-Analytics · Doctor PUC Chile
+                  </div>
+                  <span class="speaker-tag">Analítica de Aprendizaje · IA</span>
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Jorge Maldonado Mahauad</div>
+                <div class="speaker-back-role">
+                  Doctor en Ciencias de la Ingeniería · PUC Chile
+                </div>
+                <p class="speaker-back-bio">
+                  Docente-investigador de la Universidad de Cuenca y fundador de
+                  Edu-Analytics. Coordina la Comunidad Latinoamericana de
+                  Analíticas de Aprendizaje (LALA), programa Erasmus+.
+                  Investigador en proyectos europeos y Fondecyt 2025 enfocados
+                  en IA y mejora de decisiones académicas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 6 -->
+          <div class="speaker-card reveal reveal-delay-2">
+            <div class="speaker-inner">
+              <div class="speaker-front">
+                <img
+                  src="images/speaker-augusto-cabrera.png"
+                  alt="Augusto Cabrera"
+                  class="speaker-photo"
+                />
+                <div class="speaker-info">
+                  <div class="speaker-name">Augusto Cabrera-Duffaut</div>
+                  <div class="speaker-role">Jefe de Innovación · UCACUE</div>
+                  <span class="speaker-tag">Tecnología Inmersiva · XR</span>
+                </div>
+              </div>
+              <div class="speaker-back">
+                <div class="speaker-back-name">Augusto Cabrera-Duffaut</div>
+                <div class="speaker-back-role">
+                  PhD(c) Sociedad del Conocimiento · Univ. de Salamanca
+                </div>
+                <p class="speaker-back-bio">
+                  Director del capítulo Ecuador de la Immersive Learning
+                  Research Network. Fundador de la Incubadora Kalary en la
+                  Universidad Católica de Cuenca. Experto en transferencia
+                  tecnológica, propiedad intelectual y vinculación
+                  academia-industria con trayectoria en marketing digital y
+                  gestión tecnológica.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="speakers-note reveal">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
+            />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          Pasa el cursor sobre cada card para conocer la bio completa. Se
+          anunciarán más speakers próximamente.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================ AGENDA -->
+    <section id="agenda" class="section-pad">
+      <div class="container">
+        <div class="agenda-header reveal">
+          <span class="badge">Programa Oficial</span>
+          <h2 class="section-title">Agenda del <span>Evento</span></h2>
+          <p class="section-lead" style="margin: 0 auto 0">
+            Dos días intensos de aprendizaje, innovación y conexiones
+            estratégicas.
+          </p>
+        </div>
+
+        <div class="agenda-tabs">
+          <button class="tab-btn" data-tab="tab-pre">
+            Pre-Evento · 10 Jun
+          </button>
+          <button class="tab-btn active" data-tab="tab-day1">
+            Día 1 · 11 Jun
+          </button>
+          <button class="tab-btn" data-tab="tab-day2">Día 2 · 12 Jun</button>
+        </div>
+
+        <!-- PRE-EVENTO -->
+        <div class="tab-panel" id="tab-pre">
+          <div class="timeline">
+            <div class="timeline-item timeline-highlight">
+              <div class="timeline-time">19h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>☕ Café Networking HUAWEI</h4>
+                <p>
+                  Encuentro previo al evento. Conecta con ponentes y asistentes
+                  en un ambiente relajado y dinámico.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DÍA 1 -->
+        <div class="tab-panel active" id="tab-day1">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">08h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Registro de Participantes</h4>
+                <p>Acreditación y bienvenida.</p>
+              </div>
+            </div>
+            <div class="timeline-item timeline-highlight">
+              <div class="timeline-time">09h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>🎉 Inauguración Oficial</h4>
+                <p>
+                  Apertura del evento con autoridades y organizadores.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">09h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bloque de Charlas Tipo TED</h4>
+                <ul>
+                  <li>IA generativa en Moodle</li>
+                  <li>Moodle e IA: pedagogía socrática</li>
+                  <li>Personalización adaptativa</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">10h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>☕ Coffee Break</h4>
+                <p>10h30 – 11h00</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">11h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Talleres Prácticos</h4>
+                <p>Sesiones hands-on para docentes y técnicos.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">13h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>🍽️ Almuerzo</h4>
+                <p>13h00 – 14h30</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">14h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bloque de Charlas Tipo TED</h4>
+                <ul>
+                  <li>Realidad aumentada e inmersiva</li>
+                  <li>Gamificación avanzada + analítica</li>
+                  <li>Comunidades digitales: Web 3.0</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">15h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>☕ Coffee Break</h4>
+                <p>15h30 – 16h00</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">16h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Talleres Prácticos</h4>
+                <p>16h00 – 18h00</p>
+              </div>
+            </div>
+            <div class="timeline-item timeline-highlight">
+              <div class="timeline-time">18h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>🏆 Premios MoodleMoot 2026</h4>
+                <p>
+                  Reconocimiento a las mejores iniciativas de innovación
+                  educativa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DÍA 2 -->
+        <div class="tab-panel" id="tab-day2">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">08h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Registro de Participantes</h4>
+                <p>08h00 – 09h00</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">09h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bloque de Charlas Tipo TED</h4>
+                <ul>
+                  <li>Moodle Workplace</li>
+                  <li>Neurodidáctica digital</li>
+                  <li>
+                    Conectar para Aprender: la relación que transforma
+                    resultados
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">10h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>☕ Coffee Break</h4>
+                <p>10h00 – 10h30</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">10h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Talleres Prácticos</h4>
+                <p>10h30 – 12h30</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">12h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>🍽️ Almuerzo</h4>
+                <p>12h30 – 14h00</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">14h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bloque de Charlas Tipo TED</h4>
+                <ul>
+                  <li>Estrategias anti-plagio</li>
+                  <li>Aprendizaje móvil y microlearning</li>
+                  <li>Educación abierta y OER</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">15h00</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>☕ Coffee Break</h4>
+                <p>15h00 – 15h30</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">15h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Talleres Prácticos</h4>
+                <p>15h30 – 17h30</p>
+              </div>
+            </div>
+            <div class="timeline-item timeline-highlight">
+              <div class="timeline-time">17h30</div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>🎓 Clausura</h4>
+                <p>Cierre oficial del MoodleMoot Ecuador 2026.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ CAMPUS (SEDE) -->
+    <section id="sede" class="section-pad">
+      <div class="container">
+        <div class="campus-grid">
+          <div class="campus-info reveal">
+            <span class="badge">Sede del Evento</span>
+            <h2 class="section-title">
+              Pontificia Universidad Católica del Ecuador
+            </h2>
+            <p class="section-lead">
+              La PUCE será el epicentro de la innovación educativa, reuniendo a expertos, educadores y líderes del Ecuador y la región en su Campus Central. Un espacio diseñado para inspirar, conectar y transformar mediante la tecnología.
+            </p>
+          </div>
+          <div class="campus-image reveal reveal-delay-1">
+            <img src="images/puce.jpg" alt="Pontificia Universidad Católica del Ecuador" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ UBICACIÓN -->
+    <section id="ubicacion" class="section-pad" style="background: var(--off-white);">
+      <div class="container">
+        <div class="ubicacion-header reveal">
+          <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">¿Cómo <span>llegar?</span></h2>
+        </div>
+        <div class="ubicacion-grid">
+          <div class="ubicacion-cards reveal">
+            <div class="ubicacion-card">
+              <div class="card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Dirección</h3>
+                <p>Av. 12 de Octubre 1076 y Vicente Ramón Roca<br>Quito 170143, Ecuador</p>
+              </div>
+            </div>
+            <div class="ubicacion-card">
+              <div class="card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Fechas del Evento</h3>
+                <p><strong>Pre-evento:</strong> 10 de Junio<br><strong>Principal:</strong> 11 y 12 de Junio</p>
+              </div>
+            </div>
+            <div class="ubicacion-card">
+              <div class="card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h3>Contacto</h3>
+                <p>Tel: +593 998 886 615<br>WhatsApp disponible para consultas</p>
+              </div>
+            </div>
+          </div>
+          <div class="ubicacion-map reveal reveal-delay-1">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.030588691889!2d-78.49887754664539!3d-0.20849615566089852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a1033161c13%3A0xc3eaffe086ab8cf9!2sPontificia%20Universidad%20Cat%C3%B3lica%20del%20Ecuador!5e0!3m2!1ses-419!2sec!4v1714080132104!5m2!1ses-419!2sec" 
+              width="100%" 
+              height="100%" 
+              style="border:0; border-radius: var(--radius-lg); min-height: 400px;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ FAQ -->
+    <section id="faq" class="section-pad">
+      <div class="container">
+        <div class="faq-header reveal">
+          <span class="badge">Preguntas Frecuentes</span>
+          <h2 class="section-title">¿Tienes <span>dudas</span>?</h2>
+          <p class="section-lead">
+            Encontrarás respuestas a las preguntas más comunes sobre el evento.
+          </p>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              ¿Qué es MoodleMoot Ecuador 2026?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Es el encuentro nacional de Educación y Tecnología, realizado
+                por la comunidad Moodle en Ecuador, donde docentes,
+                investigadores, desarrolladores y gestores educativos comparten
+                experiencias, buenas prácticas e innovaciones en educación
+                digital.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              ¿Cuándo y dónde se realizará el evento?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                El MoodleMoot Ecuador 2026 se llevará a cabo los días
+                <strong>11 y 12 de junio de 2026</strong>, en la
+                <strong
+                  >Pontificia Universidad Católica del Ecuador (PUCE)</strong
+                >, campus central en Quito.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              ¿Quiénes pueden participar?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Está abierto a docentes, investigadores, técnicos,
+                administradores de plataformas y público interesado en el uso de
+                Moodle y la educación digital.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              ¿Qué actividades habrá en el evento?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Contaremos con charlas tipo TED, talleres prácticos para
+                docentes, administradores de plataforma y desarrolladores,
+                además de espacios de networking con la comunidad educativa.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              ¿Habrá ponentes internacionales?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Sí, se contará con la participación de speakers y talleristas
+                nacionales e internacionales, incluyendo referentes en
+                tecnología educativa y Moodle.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              ¿Cómo puedo registrarme?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                La inscripción está disponible en línea a través del botón
+                <strong>"Regístrate Ahora"</strong> en esta página. Se
+                anunciarán las fechas de apertura y los costos de participación
+                próximamente.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              ¿Se puede acceder a descuentos?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Sí, existen descuentos especiales por grupos y por inscripción
+                temprana. Para más información, escribe al WhatsApp
+                <strong>+593 998 886 615</strong>.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              ¿Se entregarán certificados?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Sí, todas las personas que participen recibirán certificados de
+                asistencia o ponencia, avalados por la organización del evento.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item reveal" style="grid-column: 1 / -1">
+            <button class="faq-question">
+              ¿Dónde puedo obtener más información y actualizaciones?
+              <span class="faq-icon"
+                ><svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                >
+                  <path d="M12 5v14M5 12h14" /></svg
+              ></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Toda la información estará disponible en esta página oficial del
+                evento y en nuestras redes sociales. También puedes suscribirte
+                al boletín informativo para recibir novedades directamente en tu
+                correo.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-whatsapp reveal">
+          <p>
+            ¿Tienes preguntas adicionales? Escríbenos directamente por WhatsApp.
+          </p>
+          <a
+            href="https://wa.me/593998886615"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-whatsapp"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"
+              />
+            </svg>
+            Escríbenos al WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ============================================================ REGISTER -->
+    <section id="register">
+      <div class="register-content">
+        <span class="register-badge">Inscripción Abierta</span>
+        <h2 class="register-title">
+          Sé parte de la <span>transformación</span><br />educativa del Ecuador
+        </h2>
+        <p class="register-lead">
+          Únete a cientos de profesionales de la educación, docentes y líderes
+          académicos que están redefiniendo el futuro del aprendizaje.
+        </p>
+        <div class="register-actions">
+          <a
+            href="https://moodlemoot-pay.exducereonline.com/register-payment/MOOT2026"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary"
+          >
+            Regístrate Ahora
+          </a>
+          <a href="#faq" class="btn btn-outline">Ver Preguntas Frecuentes</a>
+        </div>
+        <p class="register-note">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 16v-4M12 8h.01" />
+          </svg>
+          Descuentos por inscripción temprana y grupos disponibles ·
+          Certificados avalados
+        </p>
+        <div class="venue-info">
+          <div class="venue-item">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            <span
+              ><strong>Pre-evento:</strong> 10 de Junio, 2026 · Café
+              Networking</span
+            >
+          </div>
+          <div class="venue-item">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            <span
+              ><strong>Evento principal:</strong> 11 y 12 de Junio, 2026</span
+            >
+          </div>
+          <div class="venue-item">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
+              />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>PUCE · Campus Central · Quito, Ecuador</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ ORGANIZERS -->
+    <section id="organizers">
+      <div class="container">
+        <div class="org-header reveal">
+          <p>Patrocinado por</p>
+        </div>
+        <div class="org-logos reveal">
+          <div class="org-logo-item">
+            <img
+              src="images/Patrocinador_logo-puce-color.png"
+              alt="PUCE"
+              style="height: 50px; width: auto"
+            />
+          </div>
+          <div class="org-logo-item">
+            <img
+              src="images/Patrocinador_Logo_Exd.png"
+              alt="Exducere Online"
+              style="height: 60px; width: auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img
+              src="images/mootecuador25logoblanco.png"
+              alt="MoodleMoot Ecuador 2026"
+            />
+            <p>
+              El encuentro nacional de Educación y Tecnología. Transformando la
+              educación digital en Ecuador y América Latina.
+            </p>
+            <div class="footer-socials">
+              <a href="https://www.facebook.com/profile.php?id=100086614941909" target="_blank" class="social-link" aria-label="Facebook">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/exducere.online/" target="_blank" class="social-link" aria-label="Instagram">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/exducere-online01/?viewAsMember=true" target="_blank" class="social-link" aria-label="LinkedIn">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+                  />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a
+                href="https://wa.me/593998886615"
+                class="social-link"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-heading">Navegación</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#about"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                  >El Evento</a
+                >
+              </li>
+              <li>
+                <a href="#speakers"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                  >Speakers</a
+                >
+              </li>
+              <li>
+                <a href="#agenda"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                  >Agenda</a
+                >
+              </li>
+              <li>
+                <a href="#faq"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a href="https://moodlemoot-pay.exducereonline.com/register-payment/MOOT2026"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                  >Registro</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Contacto</h4>
+            <div class="footer-contact-item">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"
+                />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>PUCE Quito, Campus Central<br />Quito, Ecuador</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.95 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.85 1.2l3-.01a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              <span
+                ><a
+                  href="https://wa.me/593998886615"
+                  target="_blank"
+                  rel="noopener"
+                  >+593 998 886 615</a
+                ></span
+              >
+            </div>
+            <div class="footer-contact-item">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+              </svg>
+              <span>11 y 12 de Junio, 2026</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 MoodleMoot Ecuador. Todos los derechos reservados. Organizado
+            por <a href="#">Exducere Online</a>.
+          </p>
+          <div class="moodle-badge">
+            Powered by <span>Moodle™</span> Community
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
